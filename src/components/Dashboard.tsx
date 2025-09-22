@@ -127,7 +127,7 @@ export default function Dashboard({ onCreateRequest, onViewRequests }: Dashboard
                   <Button 
                     size="sm" 
                     onClick={() => onCreateRequest(requestType.type)}
-                    className="flex-1"
+                    className="flex-1 hover:scale-105 transition-transform"
                   >
                     <Plus className="h-3 w-3 mr-1" />
                     Créer

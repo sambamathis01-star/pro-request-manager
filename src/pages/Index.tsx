@@ -46,7 +46,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-accent/20">
       <div className="container mx-auto px-4 py-8">
-        {renderView()}
+        <div className="animate-in fade-in duration-300">
+          {renderView()}
+        </div>
       </div>
     </div>
   );
